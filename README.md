@@ -90,7 +90,7 @@ O dominio reside no centro da arquitetura e nao possui dependencias externas:
 | Filas e Jobs Assincronos | Celery + Redis (ou APScheduler) |
 | Gerenciador de Dependencias | Poetry |
 | Testes Automatizados | pytest + pytest-flask + pytest-cov |
-| Documentacao da API | Swagger / OpenAPI (flasgger / Flask-Smorest) |
+| Documentacao da API | Swagger / OpenAPI (Flasgger) |
 | Integracao Continua (CI/CD) | Jenkins (Jenkinsfile) |
 
 ---

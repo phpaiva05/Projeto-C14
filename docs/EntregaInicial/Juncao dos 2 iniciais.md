@@ -63,7 +63,7 @@ Infraestrutura e Integração
 │   ├── Implementação dos Repositories concretos (ex: SQLAlchemyLeilaoRepository)
 ├── API e Documentação:
 │   ├── Estrutura base do Flask + Flask-RESTful
-│   ├── Documentação OpenAPI/Swagger (flasgger ou Flask-Smorest)
+│   ├── Documentação OpenAPI/Swagger (Flasgger)
 └── DevOps:
     ├── Pipeline de CI/CD (Jenkins / Jenkinsfile)
     └── Configurações globais (Poetry, Docker)

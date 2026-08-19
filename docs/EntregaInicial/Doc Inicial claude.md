@@ -63,7 +63,7 @@ infra/
 |Gerenciador de dependências|Poetry|
 |Testes|pytest + pytest-flask + pytest-cov|
 |CI/CD|Jenkins (Jenkinsfile) (GitHub Actions não permitido)|
-|Documentação da API|Swagger / OpenAPI (flasgger ou Flask-Smorest)|
+|Documentação da API|Swagger / OpenAPI (Flasgger)|
 
 ---
 
