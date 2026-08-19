@@ -65,7 +65,7 @@ Infraestrutura e Integração
 │   ├── Estrutura base do Flask + Flask-RESTful
 │   ├── Documentação OpenAPI/Swagger (flasgger ou Flask-Smorest)
 └── DevOps:
-    ├── Pipeline de CI/CD (GitLab CI/CircleCI)
+    ├── Pipeline de CI/CD (Jenkins / Jenkinsfile)
     └── Configurações globais (Poetry, Docker)
 ```
 

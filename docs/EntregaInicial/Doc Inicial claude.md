@@ -62,7 +62,7 @@ infra/
 |Jobs assíncronos|Celery + Redis (ou APScheduler, alternativa mais simples)|
 |Gerenciador de dependências|Poetry|
 |Testes|pytest + pytest-flask + pytest-cov|
-|CI/CD|GitLab CI ou CircleCI (GitHub Actions não permitido)|
+|CI/CD|Jenkins (Jenkinsfile) (GitHub Actions não permitido)|
 |Documentação da API|Swagger / OpenAPI (flasgger ou Flask-Smorest)|
 
 ---
@@ -132,7 +132,7 @@ _(lista completa com Given/When/Then, prioridade e status deve ser expandida no 
 |Requisito|Como é atendido|
 |---|---|
 |Testes automatizados|Testes de domínio (sem banco) + testes de integração via pytest|
-|CI/CD sem GitHub Actions|GitLab CI/CircleCI, 1 job por integrante|
+|CI/CD sem GitHub Actions|Jenkins (Jenkinsfile), 1 job por integrante|
 |Revisão de código|PRs obrigatórios entre módulos dependentes (A→C, D→todos)|
 |Histórias de usuário|Mínimo 5, com rastreabilidade história → issue → PR → teste|
 |Metodologia|Scrum/Kanban documentado com evidências (board, métricas)|
